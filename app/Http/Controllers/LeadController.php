@@ -31,8 +31,7 @@ class LeadController extends Controller
     {
         request()->validate([
             'email' => ['required'],
-            'name' => ['required'],
-            'phone' => ['min:10']
+            'name' => ['required']
         ]);
         Leads::create([
             'name' => request('name'),

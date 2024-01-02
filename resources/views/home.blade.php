@@ -23,7 +23,7 @@
                                                 <input type="text" name="name" id="name" placeholder="Johnny Smith" class="form-control @error('name') is-invalid @enderror " />
                                                 <div>
                                                     @error('name')
-                                                    <span><strong>{{$message}}</strong></span>
+                                                    <span class="error-message"><strong>{{$message}}</strong></span>
                                                     @enderror
                                                 </div>
                                             </div>
@@ -34,18 +34,18 @@
                                                 <input type="text" name="email" id="email" placeholder="active-email@email.com" class="form-control @error('email') is-invalid @enderror " />
                                                 <div>
                                                     @error('email')
-                                                    <span><strong>{{$message}}</strong></span>
+                                                    <span class="error-message"><strong>{{$message}}</strong></span>
                                                     @enderror
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <label for="phone">Phone</label>
+                                                <label for="phone">Phone (Optional)</label>
                                                 <input type="text" name="phone" id="phone" placeholder="503-222-3333" class="form-control @error('phone') is-invalid @enderror " />
                                                 <div>
                                                     @error('phone')
-                                                    <span><strong>{{$message}}</strong></span>
+                                                    <span class="error"><strong>{{$message}}</strong></span>
                                                     @enderror
                                                 </div>
                                             </div>
