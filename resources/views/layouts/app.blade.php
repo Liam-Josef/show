@@ -13,12 +13,16 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <link href="{{asset('css/sb-admin-2.css')}}" rel="stylesheet">
+
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+{{--    @vite(['resources/sass/app.scss', 'resources/js/app.js'])--}}
 
     <style type="text/css">
         body {
-            background-image:url("{{asset('storage/skwcr-logo.png')}}");
+            background-image:url("{{asset('storage/background.jpg')}}");
+            background-size: cover;
+            background-repeat: no-repeat;
         }
 
     </style>
