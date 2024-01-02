@@ -11016,3 +11016,6 @@ body.sidebar-toggled footer.sticky-footer {
 .font-large {
     font-size: 250%;
 }
+.form-group span.error-message {
+    color:#ffffff !important;
+}
