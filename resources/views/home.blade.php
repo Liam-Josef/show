@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
                                 <p>
-                                    By signing up, you confirm that you are at least 18 years old.
+                                    Upon drawing submission, you confirm that you are at least 18 years old.
                                     The rental can only be redeemed at 250 SE Division Place, Portland, Oregon 97202.
 
                                     <span id="dots">...</span>
